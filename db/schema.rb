@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_09_141254) do
+ActiveRecord::Schema.define(version: 2020_06_06_122344) do
 
   create_table "post_images", force: :cascade do |t|
     t.string "url"
@@ -30,13 +30,6 @@ ActiveRecord::Schema.define(version: 2020_06_09_141254) do
     t.string "facebook"
     t.string "description"
     t.boolean "accepted"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "username"
-    t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

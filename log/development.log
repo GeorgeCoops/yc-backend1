@@ -16263,3 +16263,822 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 69ms (Views: 0.6ms | ActiveRecord: 3.9ms | Allocations: 30442)
 
 
+Started GET "/posts" for ::1 at 2020-06-10 10:31:18 +0100
+Started GET "/post_images" for ::1 at 2020-06-10 10:31:18 +0100
+  
+LoadError (cannot load such file -- /Users/georgecooper/Development/code/mod5/youngcreatives/yc-backend1/config/routes.rb):
+  
+bootsnap (1.4.6) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:55:in `load'
+bootsnap (1.4.6) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:55:in `load'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:40:in `each'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:20:in `reload!'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:29:in `block in updater'
+activesupport (6.0.3.1) lib/active_support/file_update_checker.rb:83:in `execute'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:10:in `execute'
+railties (6.0.3.1) lib/rails/application/finisher.rb:197:in `block (2 levels) in <module:Finisher>'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:428:in `instance_exec'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:428:in `block in make_lambda'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:200:in `block (2 levels) in halting'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:605:in `block (2 levels) in default_terminator'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:604:in `catch'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:604:in `block in default_terminator'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:201:in `block in halting'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:513:in `each'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+activesupport (6.0.3.1) lib/active_support/execution_wrapper.rb:111:in `run!'
+activesupport (6.0.3.1) lib/active_support/reloader.rb:114:in `run!'
+activesupport (6.0.3.1) lib/active_support/execution_wrapper.rb:73:in `block in run!'
+activesupport (6.0.3.1) lib/active_support/execution_wrapper.rb:70:in `tap'
+activesupport (6.0.3.1) lib/active_support/execution_wrapper.rb:70:in `run!'
+activesupport (6.0.3.1) lib/active_support/reloader.rb:63:in `run!'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+LoadError (cannot load such file -- /Users/georgecooper/Development/code/mod5/youngcreatives/yc-backend1/config/routes.rb):
+  
+bootsnap (1.4.6) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:55:in `load'
+bootsnap (1.4.6) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:55:in `load'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:40:in `each'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:20:in `reload!'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:29:in `block in updater'
+activesupport (6.0.3.1) lib/active_support/file_update_checker.rb:83:in `execute'
+railties (6.0.3.1) lib/rails/application/routes_reloader.rb:10:in `execute'
+railties (6.0.3.1) lib/rails/application/finisher.rb:197:in `block (2 levels) in <module:Finisher>'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:428:in `instance_exec'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:428:in `block in make_lambda'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:200:in `block (2 levels) in halting'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:605:in `block (2 levels) in default_terminator'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:604:in `catch'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:604:in `block in default_terminator'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:201:in `block in halting'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:513:in `each'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+activesupport (6.0.3.1) lib/active_support/execution_wrapper.rb:111:in `run!'
+activesupport (6.0.3.1) lib/active_support/reloader.rb:114:in `run!'
+activesupport (6.0.3.1) lib/active_support/execution_wrapper.rb:73:in `block in run!'
+activesupport (6.0.3.1) lib/active_support/execution_wrapper.rb:70:in `tap'
+activesupport (6.0.3.1) lib/active_support/execution_wrapper.rb:70:in `run!'
+activesupport (6.0.3.1) lib/active_support/reloader.rb:63:in `run!'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/posts" for ::1 at 2020-06-10 10:32:36 +0100
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 75ms (Views: 0.7ms | ActiveRecord: 3.2ms | Allocations: 30376)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:32:52 +0100
+Started GET "/post_images" for ::1 at 2020-06-10 10:32:52 +0100
+Processing by PostsController#index as */*
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Processing by PostImagesController#index as */*
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images"[0m
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  ↳ app/controllers/post_images_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 3673)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 41ms (Views: 0.2ms | ActiveRecord: 1.8ms | Allocations: 17553)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:33:04 +0100
+Started GET "/post_images" for ::1 at 2020-06-10 10:33:04 +0100
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Processing by PostImagesController#index as */*
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images"[0m
+  ↳ app/controllers/post_images_controller.rb:5:in `index'
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 2200)
+
+
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.3ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 25ms (Views: 0.2ms | ActiveRecord: 1.6ms | Allocations: 16166)
+
+
+Started POST "/posts" for ::1 at 2020-06-10 10:43:49 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PostsController#create as */*
+  Parameters: {"company"=>"fdgh", "position"=>"fgh", "location"=>"fgh", "jobLink"=>"fdgh", "length"=>"Freelance", "instagram"=>"fgdh", "facebook"=>"dfgh", "description"=>"fdghgdf", "post"=>{"position"=>"fgh", "company"=>"fdgh", "location"=>"fgh", "length"=>"Freelance", "jobLink"=>"fdgh", "instagram"=>"fgdh", "facebook"=>"dfgh", "description"=>"fdghgdf"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:20:in `create'
+  [1m[36mPost Create (0.8ms)[0m  [1m[32mINSERT INTO "posts" ("position", "company", "location", "length", "jobLink", "instagram", "facebook", "description", "accepted", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["position", "fgh"], ["company", "fdgh"], ["location", "fgh"], ["length", "Freelance"], ["jobLink", "fdgh"], ["instagram", "fgdh"], ["facebook", "dfgh"], ["description", "fdghgdf"], ["accepted", 0], ["created_at", "2020-06-10 09:43:49.808126"], ["updated_at", "2020-06-10 09:43:49.808126"]]
+  ↳ app/controllers/posts_controller.rb:20:in `create'
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:20:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Post (0.94ms)
+Completed 200 OK in 29ms (Views: 18.0ms | ActiveRecord: 4.2ms | Allocations: 5170)
+
+
+Started POST "/posts" for ::1 at 2020-06-10 10:43:52 +0100
+Processing by PostsController#create as */*
+  Parameters: {"company"=>"fdgh", "position"=>"fgh", "location"=>"fgh", "jobLink"=>"fdgh", "length"=>"Freelance", "instagram"=>"fgdh", "facebook"=>"dfgh", "description"=>"fdghgdf", "post"=>{"position"=>"fgh", "company"=>"fdgh", "location"=>"fgh", "length"=>"Freelance", "jobLink"=>"fdgh", "instagram"=>"fgdh", "facebook"=>"dfgh", "description"=>"fdghgdf"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:20:in `create'
+  [1m[36mPost Create (1.0ms)[0m  [1m[32mINSERT INTO "posts" ("position", "company", "location", "length", "jobLink", "instagram", "facebook", "description", "accepted", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["position", "fgh"], ["company", "fdgh"], ["location", "fgh"], ["length", "Freelance"], ["jobLink", "fdgh"], ["instagram", "fgdh"], ["facebook", "dfgh"], ["description", "fdghgdf"], ["accepted", 0], ["created_at", "2020-06-10 09:43:52.683757"], ["updated_at", "2020-06-10 09:43:52.683757"]]
+  ↳ app/controllers/posts_controller.rb:20:in `create'
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:20:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Post (0.25ms)
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 3.0ms | Allocations: 2875)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:43:55 +0100
+Processing by PostsController#index as */*
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Started GET "/post_images" for ::1 at 2020-06-10 10:43:55 +0100
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Processing by PostImagesController#index as */*
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  ↳ app/controllers/post_images_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.4ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 2597)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 48ms (Views: 0.3ms | ActiveRecord: 3.2ms | Allocations: 19564)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:44:01 +0100
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.4ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.5ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 41ms (Views: 0.3ms | ActiveRecord: 3.0ms | Allocations: 16162)
+
+
+Started PATCH "/posts/9" for ::1 at 2020-06-10 10:44:06 +0100
+Processing by PostsController#update as */*
+  Parameters: {"id"=>"9", "position"=>"Creative Junior / Intern UI/UX Designer", "company"=>"Brezaa", "location"=>"London", "length"=>"P", "jobLink"=>"https://workinstartups.com/job-board/job/92015/creative-junior-intern-uiux-designer-at-brezaa/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", "instagram"=>"https://www.instagram.com/artbasel/", "facebook"=>"https://www.facebook.com/artbasel", "description"=>"We are a start-up streetwear brand with a rapidly growing following. This job offers the opportunity to combine working from our North London based offices and working remotely, part-time or full-time opportunity available. We are looking for a junior graphic designer that is looking to grow with us as we expand.\n\nRequirements:\n- Proficiency in Illustrator and Photoshop.\n- Great organisation and timekeeping skills, have the ability to stick to deadlines.\n- A sense of initiative is essential in our rapidly growing and changing company. Your creative opinion matters to us. We are very open to someone who does not only efficiently complete design tasks set, but is also able to contribute their creative genius to the brand as a whole.\n- Being able to bring fresh and innovative design ideas to the table.\n- Be willing to learn new skills.\n\nNot essential but preferred:\n- Experience in fashion design.\n- Understanding of the domestic and overseas manufacturing processes.\n- Basic knowledge in fashion design. Being able to comstruct tech packs and CADS.\n- Previous experience working with start-up companies.\n\nIf you’re interested please apply with your CV and include any website links or portfolios.\n\nWe’re excited to welcome you and look forward to hearing from you..", "accepted"=>true, "created_at"=>"2020-06-10T09:07:50.790Z", "updated_at"=>"2020-06-10T09:07:50.790Z", "post_images"=>[], "post"=>{"id"=>"9", "position"=>"Creative Junior / Intern UI/UX Designer", "company"=>"Brezaa", "location"=>"London", "length"=>"P", "jobLink"=>"https://workinstartups.com/job-board/job/92015/creative-junior-intern-uiux-designer-at-brezaa/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", "instagram"=>"https://www.instagram.com/artbasel/", "facebook"=>"https://www.facebook.com/artbasel", "description"=>"We are a start-up streetwear brand with a rapidly growing following. This job offers the opportunity to combine working from our North London based offices and working remotely, part-time or full-time opportunity available. We are looking for a junior graphic designer that is looking to grow with us as we expand.\n\nRequirements:\n- Proficiency in Illustrator and Photoshop.\n- Great organisation and timekeeping skills, have the ability to stick to deadlines.\n- A sense of initiative is essential in our rapidly growing and changing company. Your creative opinion matters to us. We are very open to someone who does not only efficiently complete design tasks set, but is also able to contribute their creative genius to the brand as a whole.\n- Being able to bring fresh and innovative design ideas to the table.\n- Be willing to learn new skills.\n\nNot essential but preferred:\n- Experience in fashion design.\n- Understanding of the domestic and overseas manufacturing processes.\n- Basic knowledge in fashion design. Being able to comstruct tech packs and CADS.\n- Previous experience working with start-up companies.\n\nIf you’re interested please apply with your CV and include any website links or portfolios.\n\nWe’re excited to welcome you and look forward to hearing from you..", "accepted"=>true, "created_at"=>"2020-06-10T09:07:50.790Z", "updated_at"=>"2020-06-10T09:07:50.790Z"}}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:25:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+  [1m[36mPost Update (0.4ms)[0m  [1m[33mUPDATE "posts" SET "accepted" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["accepted", 1], ["updated_at", "2020-06-10 09:44:06.439486"], ["id", 9]]
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.3ms | Allocations: 3433)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:44:06 +0100
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.3ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 28ms (Views: 0.2ms | ActiveRecord: 1.8ms | Allocations: 17221)
+
+
+Started PATCH "/posts/11" for ::1 at 2020-06-10 10:44:08 +0100
+Processing by PostsController#update as */*
+  Parameters: {"id"=>"11", "position"=>"Junior Fashion Designer", "company"=>"Gessy Ltd", "location"=>"Manchester", "length"=>"Perm", "jobLink"=>"https://workinstartups.com/job-board/job/92015/creative-junior-intern-uiux-designer-at-brezaa/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", "instagram"=>"https://www.instagram.com/artbasel/", "facebook"=>"https://www.facebook.com/artbasel", "description"=>"Job Title: Junior Fashion Designer\n\nWorking hours: Full-time,Monday to Friday, 9:00 am to 6:00 pm with hour lunch\n\nWorking Place: Manchester, Lancashire, UK\n\nThe Company\n\nWe are a leading Fashion Accessories company, supplying over 3000 stockists in the UK and abroad including high street retailers and department stores. With a strong reputation and growing recognition within the marketplace we offer superb opportunities for successful people.\n\nWe are looking for an enthusiastic, highly motivated individual to join our team working in a dynamic, fast moving environment within the fashion industry.\n\nYour Responsibilities Include But Not Limited To\n• Creating and developing artwork, colour pallet and mood boards for upcoming womenswear collections consistent with the brands positioning.\n• Undertake research to formulate design concepts.\n• Create, prepare and deliver product presentations and designs.", "accepted"=>true, "created_at"=>"2020-06-10T09:07:50.798Z", "updated_at"=>"2020-06-10T09:07:50.798Z", "post_images"=>[], "post"=>{"id"=>"11", "position"=>"Junior Fashion Designer", "company"=>"Gessy Ltd", "location"=>"Manchester", "length"=>"Perm", "jobLink"=>"https://workinstartups.com/job-board/job/92015/creative-junior-intern-uiux-designer-at-brezaa/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", "instagram"=>"https://www.instagram.com/artbasel/", "facebook"=>"https://www.facebook.com/artbasel", "description"=>"Job Title: Junior Fashion Designer\n\nWorking hours: Full-time,Monday to Friday, 9:00 am to 6:00 pm with hour lunch\n\nWorking Place: Manchester, Lancashire, UK\n\nThe Company\n\nWe are a leading Fashion Accessories company, supplying over 3000 stockists in the UK and abroad including high street retailers and department stores. With a strong reputation and growing recognition within the marketplace we offer superb opportunities for successful people.\n\nWe are looking for an enthusiastic, highly motivated individual to join our team working in a dynamic, fast moving environment within the fashion industry.\n\nYour Responsibilities Include But Not Limited To\n• Creating and developing artwork, colour pallet and mood boards for upcoming womenswear collections consistent with the brands positioning.\n• Undertake research to formulate design concepts.\n• Create, prepare and deliver product presentations and designs.", "accepted"=>true, "created_at"=>"2020-06-10T09:07:50.798Z", "updated_at"=>"2020-06-10T09:07:50.798Z"}}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:25:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+  [1m[36mPost Update (1.3ms)[0m  [1m[33mUPDATE "posts" SET "accepted" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["accepted", 1], ["updated_at", "2020-06-10 09:44:08.415815"], ["id", 11]]
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 4.2ms | Allocations: 3247)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:44:08 +0100
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.4ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.5ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.4ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 44ms (Views: 0.2ms | ActiveRecord: 2.9ms | Allocations: 16165)
+
+
+Started PATCH "/posts/11" for ::1 at 2020-06-10 10:44:10 +0100
+Processing by PostsController#update as */*
+  Parameters: {"id"=>"11", "position"=>"Junior Fashion Designer", "company"=>"Gessy Ltd", "location"=>"Manchester", "length"=>"Perm", "jobLink"=>"https://workinstartups.com/job-board/job/92015/creative-junior-intern-uiux-designer-at-brezaa/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", "instagram"=>"https://www.instagram.com/artbasel/", "facebook"=>"https://www.facebook.com/artbasel", "description"=>"Job Title: Junior Fashion Designer\n\nWorking hours: Full-time,Monday to Friday, 9:00 am to 6:00 pm with hour lunch\n\nWorking Place: Manchester, Lancashire, UK\n\nThe Company\n\nWe are a leading Fashion Accessories company, supplying over 3000 stockists in the UK and abroad including high street retailers and department stores. With a strong reputation and growing recognition within the marketplace we offer superb opportunities for successful people.\n\nWe are looking for an enthusiastic, highly motivated individual to join our team working in a dynamic, fast moving environment within the fashion industry.\n\nYour Responsibilities Include But Not Limited To\n• Creating and developing artwork, colour pallet and mood boards for upcoming womenswear collections consistent with the brands positioning.\n• Undertake research to formulate design concepts.\n• Create, prepare and deliver product presentations and designs.", "accepted"=>false, "created_at"=>"2020-06-10T09:07:50.798Z", "updated_at"=>"2020-06-10T09:44:08.415Z", "post_images"=>[], "post"=>{"id"=>"11", "position"=>"Junior Fashion Designer", "company"=>"Gessy Ltd", "location"=>"Manchester", "length"=>"Perm", "jobLink"=>"https://workinstartups.com/job-board/job/92015/creative-junior-intern-uiux-designer-at-brezaa/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", "instagram"=>"https://www.instagram.com/artbasel/", "facebook"=>"https://www.facebook.com/artbasel", "description"=>"Job Title: Junior Fashion Designer\n\nWorking hours: Full-time,Monday to Friday, 9:00 am to 6:00 pm with hour lunch\n\nWorking Place: Manchester, Lancashire, UK\n\nThe Company\n\nWe are a leading Fashion Accessories company, supplying over 3000 stockists in the UK and abroad including high street retailers and department stores. With a strong reputation and growing recognition within the marketplace we offer superb opportunities for successful people.\n\nWe are looking for an enthusiastic, highly motivated individual to join our team working in a dynamic, fast moving environment within the fashion industry.\n\nYour Responsibilities Include But Not Limited To\n• Creating and developing artwork, colour pallet and mood boards for upcoming womenswear collections consistent with the brands positioning.\n• Undertake research to formulate design concepts.\n• Create, prepare and deliver product presentations and designs.", "accepted"=>false, "created_at"=>"2020-06-10T09:07:50.798Z", "updated_at"=>"2020-06-10T09:44:08.415Z"}}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:25:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "accepted" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["accepted", 0], ["updated_at", "2020-06-10 09:44:10.345508"], ["id", 11]]
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 2.5ms | Allocations: 3249)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:44:10 +0100
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 29ms (Views: 0.7ms | ActiveRecord: 1.8ms | Allocations: 16162)
+
+
+Started PATCH "/posts/9" for ::1 at 2020-06-10 10:44:11 +0100
+Processing by PostsController#update as */*
+  Parameters: {"id"=>"9", "position"=>"Creative Junior / Intern UI/UX Designer", "company"=>"Brezaa", "location"=>"London", "length"=>"P", "jobLink"=>"https://workinstartups.com/job-board/job/92015/creative-junior-intern-uiux-designer-at-brezaa/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", "instagram"=>"https://www.instagram.com/artbasel/", "facebook"=>"https://www.facebook.com/artbasel", "description"=>"We are a start-up streetwear brand with a rapidly growing following. This job offers the opportunity to combine working from our North London based offices and working remotely, part-time or full-time opportunity available. We are looking for a junior graphic designer that is looking to grow with us as we expand.\n\nRequirements:\n- Proficiency in Illustrator and Photoshop.\n- Great organisation and timekeeping skills, have the ability to stick to deadlines.\n- A sense of initiative is essential in our rapidly growing and changing company. Your creative opinion matters to us. We are very open to someone who does not only efficiently complete design tasks set, but is also able to contribute their creative genius to the brand as a whole.\n- Being able to bring fresh and innovative design ideas to the table.\n- Be willing to learn new skills.\n\nNot essential but preferred:\n- Experience in fashion design.\n- Understanding of the domestic and overseas manufacturing processes.\n- Basic knowledge in fashion design. Being able to comstruct tech packs and CADS.\n- Previous experience working with start-up companies.\n\nIf you’re interested please apply with your CV and include any website links or portfolios.\n\nWe’re excited to welcome you and look forward to hearing from you..", "accepted"=>false, "created_at"=>"2020-06-10T09:07:50.790Z", "updated_at"=>"2020-06-10T09:44:06.439Z", "post_images"=>[], "post"=>{"id"=>"9", "position"=>"Creative Junior / Intern UI/UX Designer", "company"=>"Brezaa", "location"=>"London", "length"=>"P", "jobLink"=>"https://workinstartups.com/job-board/job/92015/creative-junior-intern-uiux-designer-at-brezaa/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", "instagram"=>"https://www.instagram.com/artbasel/", "facebook"=>"https://www.facebook.com/artbasel", "description"=>"We are a start-up streetwear brand with a rapidly growing following. This job offers the opportunity to combine working from our North London based offices and working remotely, part-time or full-time opportunity available. We are looking for a junior graphic designer that is looking to grow with us as we expand.\n\nRequirements:\n- Proficiency in Illustrator and Photoshop.\n- Great organisation and timekeeping skills, have the ability to stick to deadlines.\n- A sense of initiative is essential in our rapidly growing and changing company. Your creative opinion matters to us. We are very open to someone who does not only efficiently complete design tasks set, but is also able to contribute their creative genius to the brand as a whole.\n- Being able to bring fresh and innovative design ideas to the table.\n- Be willing to learn new skills.\n\nNot essential but preferred:\n- Experience in fashion design.\n- Understanding of the domestic and overseas manufacturing processes.\n- Basic knowledge in fashion design. Being able to comstruct tech packs and CADS.\n- Previous experience working with start-up companies.\n\nIf you’re interested please apply with your CV and include any website links or portfolios.\n\nWe’re excited to welcome you and look forward to hearing from you..", "accepted"=>false, "created_at"=>"2020-06-10T09:07:50.790Z", "updated_at"=>"2020-06-10T09:44:06.439Z"}}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:25:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+  [1m[36mPost Update (0.7ms)[0m  [1m[33mUPDATE "posts" SET "accepted" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["accepted", 0], ["updated_at", "2020-06-10 09:44:11.449234"], ["id", 9]]
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 2.7ms | Allocations: 3252)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:44:11 +0100
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.4ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.3ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.3ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 33ms (Views: 0.2ms | ActiveRecord: 2.6ms | Allocations: 16162)
+
+
+Started PATCH "/posts/13" for ::1 at 2020-06-10 10:44:13 +0100
+Processing by PostsController#update as */*
+  Parameters: {"id"=>"13", "position"=>"fgh", "company"=>"fdgh", "location"=>"fgh", "length"=>"Freelance", "jobLink"=>"fdgh", "instagram"=>"fgdh", "facebook"=>"dfgh", "description"=>"fdghgdf", "accepted"=>true, "created_at"=>"2020-06-10T09:43:49.808Z", "updated_at"=>"2020-06-10T09:43:49.808Z", "post_images"=>[], "post"=>{"id"=>"13", "position"=>"fgh", "company"=>"fdgh", "location"=>"fgh", "length"=>"Freelance", "jobLink"=>"fdgh", "instagram"=>"fgdh", "facebook"=>"dfgh", "description"=>"fdghgdf", "accepted"=>true, "created_at"=>"2020-06-10T09:43:49.808Z", "updated_at"=>"2020-06-10T09:43:49.808Z"}}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:25:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+  [1m[36mPost Update (0.7ms)[0m  [1m[33mUPDATE "posts" SET "accepted" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["accepted", 1], ["updated_at", "2020-06-10 09:44:13.082074"], ["id", 13]]
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:26:in `update'
+Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 3.8ms | Allocations: 3231)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:44:13 +0100
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.3ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.3ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 34ms (Views: 0.2ms | ActiveRecord: 2.2ms | Allocations: 16162)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:44:14 +0100
+Started GET "/post_images" for ::1 at 2020-06-10 10:44:14 +0100
+Processing by PostsController#index as */*
+Processing by PostImagesController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  ↳ app/controllers/post_images_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+Completed 200 OK in 29ms (Views: 0.4ms | ActiveRecord: 0.1ms | Allocations: 2480)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.5ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 69ms (Views: 0.3ms | ActiveRecord: 2.7ms | Allocations: 18019)
+
+
+Started GET "/post_images" for ::1 at 2020-06-10 10:44:41 +0100
+Started GET "/posts" for ::1 at 2020-06-10 10:44:41 +0100
+Processing by PostImagesController#index as */*
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images"[0m
+  ↳ app/controllers/post_images_controller.rb:5:in `index'
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 1629)
+
+
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.3ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 0.2ms | ActiveRecord: 1.7ms | Allocations: 16401)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 10:44:52 +0100
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 0.3ms | ActiveRecord: 1.7ms | Allocations: 16162)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 11:00:36 +0100
+Started GET "/post_images" for ::1 at 2020-06-10 11:00:36 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+Processing by PostImagesController#index as */*
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  ↳ app/controllers/post_images_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 2100)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.2ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 24ms (Views: 0.1ms | ActiveRecord: 1.6ms | Allocations: 19262)
+
+
+Started GET "/posts" for ::1 at 2020-06-10 11:00:41 +0100
+Started GET "/post_images" for ::1 at 2020-06-10 11:00:41 +0100
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Processing by PostImagesController#index as */*
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images"[0m
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  ↳ app/controllers/post_images_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 2]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 3]]
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 2654)
+
+
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 5]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 6]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 7]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 8]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 9]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 10]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 11]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 12]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 13]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+  [1m[36mPostImage Load (0.1ms)[0m  [1m[34mSELECT "post_images".* FROM "post_images" WHERE "post_images"."post_id" = ?[0m  [["post_id", 14]]
+  ↳ app/controllers/posts_controller.rb:5:in `index'
+Completed 200 OK in 32ms (Views: 0.1ms | ActiveRecord: 1.3ms | Allocations: 18313)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200610100429)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "password_digest" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200610100429)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "password_digest" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePosts (20200606120526)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "posts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "position" varchar, "company" varchar, "location" varchar, "length" varchar, "jobLink" varchar, "instagram" varchar, "facebook" varchar, "description" varchar, "accepted" boolean, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200606120526"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreatePostImages (20200606122344)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "post_images" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "url" varchar, "post_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_3ee54b46c4"
+FOREIGN KEY ("post_id")
+  REFERENCES "posts" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_post_images_on_post_id" ON "post_images" ("post_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200606122344"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-10 10:09:25.638576"], ["updated_at", "2020-06-10 10:09:25.638576"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
