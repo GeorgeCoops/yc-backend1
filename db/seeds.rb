@@ -150,19 +150,12 @@ Requirements
 
 
 
-PostImage.create(url: "https://images.squarespace-cdn.com/content/v1/5ac2674075f9ee1ecc5c06b7/1592137312228-KK66FZCC516AM1AS0P4U/ke17ZwdGBToddI8pDm48kOzcNM0EGAe7JSGUdw5R1UZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmq3MbaivNgIxPsbHdgj6TWvJJLHNrJVLytBOYvUyCkDMcP7CaCHFZ9SoH3byFXpRD/Screen+Shot+2019-07-31+at+21.20.35+copy.png?format=750w", post_id: 1)
-PostImage.create(url: "https://images.squarespace-cdn.com/content/v1/5ac2674075f9ee1ecc5c06b7/1592137303175-45MVDZ0WG5Z90WUO05D0/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/kitty+got+claws+ss+copy.jpg?format=750w", post_id: 1)
-PostImage.create(url: "https://cdn.dribbble.com/users/2761604/screenshots/5537638/sunset_jpg_2x.jpg", post_id: 2)
-PostImage.create(url: "https://static.vecteezy.com/system/resources/thumbnails/000/365/195/original/ANS-Retro_Background-03.jpg", post_id: 2)
-PostImage.create(url: "https://pmcwwd.files.wordpress.com/2020/02/luisa-beccaria-rtw-fall-2020-courtesy-photo-001.jpg?quality=95&crop=0px%2C86px%2C1365px%2C911px&resize=640%2C415", post_id: 3)
-PostImage.create(url: "https://images.squarespace-cdn.com/content/v1/5a678b247131a5f7e3269988/1574052635636-JVF252C7TH9HRYP8QOQ1/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/LIBERATORE_SS18_0120%2B.jpg", post_id: 3)
-PostImage.create(url: "https://cdn.dribbble.com/users/1851222/screenshots/7146054/media/95fb375d6c237643aca9e5640e374614.png", post_id: 4)
-PostImage.create(url: "https://on.notist.cloud/slides/deck769/large-0.png", post_id: 4)
-PostImage.create(url: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/c048e461826741.5c6b0787de8fa.jpg", post_id: 5)
-PostImage.create(url: "https://cdna.artstation.com/p/assets/images/images/001/068/702/large/davison-carvalho-davisonc-s-ui-artist-test-05-optional-version.jpg?1439357269", post_id: 5)
-PostImage.create(url: "https://www.cv-library.co.uk/career-advice/wp-content/uploads/2018/03/How-to-become-a-design-engineer.jpg", post_id: 6)
-PostImage.create(url: "https://d3jh33bzyw1wep.cloudfront.net/s3/W1siZiIsIjIwMTcvMDYvMjYvMTYvMDYvMTEvMjM4L2Rlc2lnbi10d28uanBlZy5qcGciXSxbInAiLCJ0aHVtYiIsIjEyMDB4NjMwIyJdXQ", post_id: 6)
-PostImage.create(url: "https://cybermill.co.uk/wp-content/uploads/2017/01/webdesign-york.jpg", post_id: 7)
-PostImage.create(url: "https://mytechdecisions.com/wp-content/uploads/2019/10/AdobeStock_256229414.jpg", post_id: 7)
-PostImage.create(url: "https://fabrikbrands.com/wp-content/uploads/Psychology-of-Colour-1.jpg", post_id: 8)
-PostImage.create(url: "https://eleanormaclure.files.wordpress.com/2011/03/fashion-in-colours.jpg", post_id: 8)
+PostImage.create(url: "https://res.cloudinary.com/dh20yq9bc/image/upload/v1592318346/Screen_Shot_2019-07-31_at_21.20.35_copy_ygvx7s.png", post_id: 1)
+PostImage.create(url: "https://res.cloudinary.com/dh20yq9bc/image/upload/v1592318738/sunset_jpg_2x_seom7c.webp", post_id: 2)
+PostImage.create(url: "https://res.cloudinary.com/dh20yq9bc/image/upload/v1592318344/kitty_got_claws_ss_copy_nbvcrf.jpg", post_id: 3)
+PostImage.create(url: "https://res.cloudinary.com/dh20yq9bc/image/upload/v1592318343/19dd658f1cb921ebac381f01f675e2bf_ahnn1w.jpg", post_id: 4)
+PostImage.create(url: "https://res.cloudinary.com/dh20yq9bc/image/upload/v1592318888/8740761890a6524fe261d1b10ba4109b_fiupzv.jpg", post_id: 5)
+PostImage.create(url: "https://res.cloudinary.com/dh20yq9bc/image/upload/v1592318343/CNV00020_copy_ws5v9h.jpg", post_id: 6)
+PostImage.create(url: "https://res.cloudinary.com/dh20yq9bc/image/upload/v1592318979/0_I0vqL4kZwVo_knXG_cjkm6d.png", post_id: 7)
+PostImage.create(url: "https://res.cloudinary.com/dh20yq9bc/image/upload/v1592318346/noz_butt_copy_x2dqaq.jpg", post_id: 8)
+
