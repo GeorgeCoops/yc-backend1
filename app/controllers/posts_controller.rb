@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+    before_action :authorised?, only: [:update]
 
     def index
         posts = Post.all
@@ -23,14 +24,24 @@ class PostsController < ApplicationController
 
     def update
         post = Post.find(params[:id])
-        post.update(position: params[:position], company: params[:company], location: params[:location], length: params[:length], jobLink: params[:jobLink], instagram: params[:instagram], facebook: params[:facebook], description: params[:description], accepted: params[:accepted])    
+        post.update(
+            # position: params[:position], 
+            # company: params[:company], 
+            # location: params[:location], 
+            # length: params[:length], 
+            # jobLink: params[:jobLink], 
+            # instagram: params[:instagram], 
+            # facebook: params[:facebook], 
+            # description: params[:description], 
+            accepted: params[:accepted]
+        )    
         render json: post.to_json
     end
 
-    # def destroy
-    #     post = Post.find_by_id(params[:id])
-    #     post.destroy
-    #     render json: {}
-    # end
+    def destroy
+        post = Post.find_by_id(params[:id])
+        post.destroy
+        render json: {}
+    end
 
 end
