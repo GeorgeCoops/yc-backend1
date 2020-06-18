@@ -2,7 +2,7 @@ class ApplicationController < ActionController::API
    
   def login
     # byebug
-    if params[:username] == ENV["YC_ADMIN_USERNAME"] && params[:password] == ENV["YC_ADMIN_PASSWORD"]
+    if params[:username] == ENV["YC_ADMIN_USER"] && params[:password] == ENV["YC_ADMIN_PASSWORD"]
       render json: { token: issue_token({ admin: true }) }
     else
       render json: { error: "This is not the correct details." }
